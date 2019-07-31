@@ -7,10 +7,12 @@ import * as highcharts from 'highcharts/highcharts';
 import { ChartModule } from 'angular2-highcharts';
 import * as exporting from 'highcharts/modules/exporting.src';
 
-
-// import * as grouped from 'highcharts-grouped-categories'; // option 1
-// import * as grouped from 'highcharts-grouped-categories/grouped-categories'; // option 2
-import * as grouped from 'highcharts/highcharts-grouped-categories'; // option 3
+// option 1
+// import * as grouped from 'highcharts-grouped-categories';
+// option 2
+// import * as grouped from 'highcharts/highcharts-grouped-categories';
+// option 3, using https://github.com/blacklabel/grouped_categories/issues/136
+import * as grouped from 'highcharts-grouped-categories/grouped-categories';
 
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
